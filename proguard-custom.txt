@@ -105,6 +105,13 @@
 -dontwarn android.net.SSLCertificateSocketFactory
 -dontwarn android.net.http.*
 
+-dontwarn okhttp3.**
+-dontwarn okio.**
+
+-dontwarn com.razorpay.**
+
+
+
 # These clases contain references to cordova webView
 -keep class com.ionicframework.cordova.webview.** {*; }
 -keep class com.ionicframework.cordova.webview.*
